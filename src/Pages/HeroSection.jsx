@@ -1,9 +1,8 @@
 import { FiDownload } from "react-icons/fi";
- 
+
 import Socials from "../Components/Socials";
 import Photo from "../Components/Photo";
 import Stats from "../Components/Stats";
- 
 
 const HeroSection = () => {
   return (
@@ -40,13 +39,16 @@ const HeroSection = () => {
                 <FiDownload></FiDownload>
               </button>
 
-              <Socials containerStyle="flex gap-6 " iconStyle="w-9 h-9 border border-basic  rounded-full  flex  items-center justify-center text-basic  
+              <Socials
+                containerStyle="flex gap-6 "
+                iconStyle="w-9 h-9 border border-basic  rounded-full  flex  items-center justify-center text-basic  
               hover:bg-basic hover:text-black transition-all duration-600
-              "></Socials>
+              "
+              ></Socials>
             </div>
           </div>
           {/* photo */}
-          <div  className="mb-8 lg:mb-0" >
+          <div className="mb-8 lg:mb-0">
             <Photo></Photo>
           </div>
         </div>

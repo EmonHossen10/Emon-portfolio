@@ -11,18 +11,13 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-
       <NavLink
         to="/about"
         className={({ isActive, isPending }) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active"
-            : "hover:underline hover:text-basic"
+          isPending ? "pending" : isActive ? "text-basic underline  " : ""
         }
       >
-        About
+       About
       </NavLink>
 
       <NavLink
