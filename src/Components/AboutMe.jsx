@@ -36,20 +36,20 @@ const about = {
 
 const AboutMe = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-center items-center pb-10 w-10/12 mx-auto gap-10">
-      <div className="flex-1 ">
+    <section className="flex flex-col lg:flex-row justify-center items-center py-10 w-10/12 mx-auto gap-10">
+      <div data-aos="fade-right" className="flex-1  ">
         <img
           src={img}
-          className=" w-[300px] lg:w-[500px] lg:h-[500px] rounded-lg shadow-2xl    "
-          alt=""
+          className=" w-[300px] lg:w-[460px] lg:h-[460px] rounded-lg shadow-2xl    "
+          alt="" 
         />
       </div>
-      <div className="flex-1">
-        <h2 className="text-basic font-bold text-3xl text-center lg:text-left mb-6">
+      <div data-aos="fade-up-left" className="flex-1  ">
+        <h2 className="text-basic font-bold text-4xl text-center lg:text-left mb-6">
           About Me!!!
         </h2>
 
-        <p className="text-sm">
+        <p className="text-sm lg:text-base">
           I am a dedicated and versatile MERN stack developer with a passion for
           building efficient and user-friendly web applications. With 2 years of
           learning experience, I have worked with a variety of technologies,

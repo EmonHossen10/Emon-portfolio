@@ -6,7 +6,7 @@ const Navbar = () => {
       <NavLink
         to="/"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "text-basic underline  " : ""
+          isPending ? "pending" : isActive ? "text-basic underline  " : "hover:text-basic hover:underline "
         }
       >
         Home
@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavLink
         to="/about"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "text-basic underline  " : ""
+          isPending ? "pending" : isActive ? "text-basic underline  " : "hover:text-basic hover:underline "
         }
       >
        About
@@ -23,7 +23,7 @@ const Navbar = () => {
       <NavLink
         to="/experience"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
+          isPending ? "pending" : isActive ? "text-basic underline  " : "hover:text-basic hover:underline "
         }
       >
         Experience
@@ -32,7 +32,7 @@ const Navbar = () => {
       <NavLink
         to="/projects"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "text-basic underline  " : "hover:text-basic hover:underline "
         }
       >
         Project
@@ -41,7 +41,7 @@ const Navbar = () => {
       <NavLink
         to="/contact"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
+          isPending ? "pending" : isActive ? "text-basic underline  " : "hover:text-basic hover:underline "
         }
       >
         Contact

@@ -13,11 +13,11 @@ const stats = [
   },
   {
     num: 9,
-    text: "Technologies learned ",
+    text: "Technologies learned",
   },
   {
     num: 500,
-    text: "Code Commits  ",
+    text: "Code Commits",
   },
 ];
 const Stats = () => {

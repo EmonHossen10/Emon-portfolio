@@ -1,5 +1,4 @@
 import { FiDownload } from "react-icons/fi";
-
 import Socials from "../Components/Socials";
 import Photo from "../Components/Photo";
 import Stats from "../Components/Stats";
@@ -15,10 +14,10 @@ const HeroSection = () => {
         >
           {/* Text */}
           <div className="text-center lg:text-left space-y-5">
-            <span className="text-3xl  font-bold">Web Developer</span>
-            <h2 className="text-3xl text-basic ">
+            <h2 className="text-2xl text-basic ">
               Hi, I'm <br /> <span>Mohammad Easin Arafat Emon</span>
             </h2>
+            <p className="text-3xl font-bold">Web Developer</p>
 
             {/* another text part */}
 
@@ -26,12 +25,12 @@ const HeroSection = () => {
               I am a passionate MERN stack developer with 2 years of learning
               experience in HTML, CSS, React, Node.js, Express.js, and MongoDB.
               Aiming to build innovative solutions that drive business growth
-              and deliver exceptional user experiences..
+              and deliver exceptional user experiences.
             </p>
             {/* btn and socials */}
             <div className=" flex flex-col lg:flex-row items-center gap-8">
               <button
-                className="flex items-center gap-3 text-basic font-semibold  border border-basic px-10 py-3 rounded-full   hover:bg-basic hover:text-black 
+                className="flex items-center gap-3 text-basic font-semibold  border border-basic px-10 py-3 rounded-full hover:bg-basic hover:text-black 
               transition-all duration-300 
               "
               >
