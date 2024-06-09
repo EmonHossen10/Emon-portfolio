@@ -12,6 +12,7 @@ import {
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import ExperienceCard from "./ExperienceCard";
+import MyServices from "./MyServices";
 // experience
 const experience = [
   {
@@ -109,6 +110,10 @@ const Experience = () => {
             }
           </div>
         </div>
+      </section>
+      {/* my service section */}
+      <section>
+        <MyServices></MyServices>
       </section>
 
 
