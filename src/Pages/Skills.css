@@ -1,0 +1,10 @@
+.enjoy:hover {
+  color: #00fd9c;
+  transition: color 0.2s ease-in;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 25px;
+  color: #00fd9c;
+}
