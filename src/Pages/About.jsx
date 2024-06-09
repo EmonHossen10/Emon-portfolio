@@ -16,6 +16,9 @@ const About = () => {
     <div>
       <Navbar></Navbar>
       {/* about section */}
+      <h2 className="text-basic   font-bold text-4xl text-center   my-6">
+          About Me!!!
+        </h2>
       <AboutMe></AboutMe>
       {/* education section */}
       <Education></Education>

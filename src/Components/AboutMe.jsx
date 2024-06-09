@@ -41,13 +41,12 @@ const AboutMe = () => {
         <img
           src={img}
           className=" w-[300px] lg:w-[460px] lg:h-[460px] rounded-lg shadow-2xl    "
-          alt="" 
+          alt=""
         />
       </div>
       <div data-aos="fade-up-left" className="flex-1  ">
-        <h2 className="text-basic font-bold text-4xl text-center lg:text-left mb-6">
-          About Me!!!
-        </h2>
+        <h2 className="text-3xl mb-6 font-bold
+         "   style={{ color: '#FFD700' }} >Available for your projects </h2>
 
         <p className="text-sm lg:text-base">
           I am a dedicated and versatile MERN stack developer with a passion for
