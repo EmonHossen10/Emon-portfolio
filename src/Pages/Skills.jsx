@@ -6,18 +6,18 @@ import {
   FaBootstrap,
   FaNodeJs,
   FaFigma,
-  FaNode,
+  
   FaGithub,
 } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import {
   SiTailwindcss,
-  SiNextdotjs,
+  
   SiNetlify,
   SiFirebase,
   SiExpress,
   SiMongodb,
-  SiNodedotjs,
+  
 } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
 import { GrStorage } from "react-icons/gr";
@@ -25,7 +25,7 @@ import { IoLogoVercel } from "react-icons/io5";
 import "./Skills.css";
 const Skills = () => {
   return (
-    <section data-aos="zoom-in-up" className="grid grid-cols-1 lg:grid-cols-2 w-10/12 mx-auto gap-10">
+    <section data-aos="zoom-in-up" className="grid grid-cols-1 lg:grid-cols-2 w-10/12 mb-10 mx-auto gap-10">
       {/* frontend development */}
       <div>
         <div>

@@ -64,7 +64,7 @@ const Experience = () => {
         <MyServices></MyServices>
       </section>
       {/* my skills section */}
-      <section  className="py-10">
+      <section className="py-10">
         <h2 className="text-basic text-center text-4xl py-10">
           My Comfort Zone
         </h2>

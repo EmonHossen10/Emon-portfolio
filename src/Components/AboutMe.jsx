@@ -40,15 +40,23 @@ const AboutMe = () => {
       <div data-aos="fade-right" className="flex-1  ">
         <img
           src={img}
-          className=" w-[300px] lg:w-[460px] lg:h-[460px] rounded-lg shadow-2xl    "
+          className=" w-[300px] lg:w-[460px] lg:h-[460px]  rounded-lg shadow-2xl   hover:rotate-6 transition-all ease-in duration-300 hover:shadow-gray-600 "
           alt=""
         />
       </div>
-      <div data-aos="fade-up-left" className="flex-1  ">
-        <h2 className="text-3xl mb-6 font-bold
-         "   style={{ color: '#FFD700' }} >Available for your projects </h2>
 
-        <p className="text-sm lg:text-base">
+
+
+      <div data-aos="fade-up-left" className="flex-1  ">
+        <h2
+          className="text-3xl mb-12 font-bold
+         "
+          style={{ color: "#FFD700" }}
+        >
+          Available for your projects{" "}
+        </h2>
+
+        <p className="text-sm lg:text-base  hover:scale-125 transition-all  ease-in duration-300 ">
           I am a dedicated and versatile MERN stack developer with a passion for
           building efficient and user-friendly web applications. With 2 years of
           learning experience, I have worked with a variety of technologies,
