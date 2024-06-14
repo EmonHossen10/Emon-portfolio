@@ -3,9 +3,10 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "../Components/Socials";
 import Photo from "../Components/Photo";
 import Stats from "../Components/Stats";
- 
+import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
-  
   return (
     <section className="h-full">
       <div className=" w-11/12 lg:w-10/12  mx-auto h-full">
@@ -19,8 +20,36 @@ const HeroSection = () => {
             <h2 className="text-2xl text-basic ">
               Hi, I'm <br /> <span>Mohammad Easin Arafat Emon</span>
             </h2>
-             
-            <p className="text-4xl font-bold" > I'm a <span> Web Developer</span></p>
+
+            {/* <p className="text-4xl font-bold">
+              {" "}
+              I'm a <span> Web Developer</span>
+            </p> */}
+
+            <h2 className="lg:text-4xl text-xl text-white  font-semibold mb-2 animate__animated animate__zoomIn">
+              <span>I'm a </span>
+              <TypeAnimation
+                sequence={[
+                  "MERN",
+                  700,
+                  "MERN Stack",
+                  700,
+                  "MERN Stack Developer",
+                  700,
+                  "Front-end",
+                  700,
+                  "Front-end Developer",
+                  700,
+                  "Web Developer",
+                  700,
+                  "",
+                  700,
+                ]}
+                className="lg:text-4xl text-3xl text-[#ccd6f6] font-bold mb-5"
+                repeat={Infinity}
+                delay={100} // Adjusted delay for typing speed
+              />
+            </h2>
 
             {/* another text part */}
 
@@ -32,14 +61,16 @@ const HeroSection = () => {
             </p>
             {/* btn and socials */}
             <div className=" flex flex-col lg:flex-row items-center gap-8">
-              <button
-                className="flex items-center gap-3 text-basic font-semibold  border border-basic px-10 py-3 rounded-full hover:bg-basic hover:text-black 
+              <Link to="https://drive.google.com/uc?export=download&id=1Z6jG2V0ynV_jmY3b00N9lVaOptvN3icM">
+                <button
+                  className="flex items-center gap-3 text-basic font-semibold  border border-basic px-10 py-3 rounded-full hover:bg-basic hover:text-black 
               transition-all duration-300 
               "
-              >
-                <span>Resume</span>
-                <FiDownload></FiDownload>
-              </button>
+                >
+                  <span>Resume</span>
+                  <FiDownload></FiDownload>
+                </button>
+              </Link>
 
               <Socials
                 containerStyle="flex gap-6 "
