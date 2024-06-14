@@ -18,8 +18,7 @@ const HeroSection = () => {
           {/* Text */}
           <div className="text-center lg:text-left space-y-5">
             <h2 className="text-2xl text-basic ">
-              {/* Hi, I'm <br />  */}
-              
+              Hi, I'm <br />
               <span>Mohammad Easin Arafat Emon</span>
             </h2>
             <h2 className="lg:text-4xl text-xl text-white  font-semibold mb-2 animate__animated animate__zoomIn">
