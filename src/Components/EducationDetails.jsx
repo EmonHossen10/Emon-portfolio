@@ -1,14 +1,9 @@
- 
 import { FaSchool } from "react-icons/fa";
-
 import { IoIosTime } from "react-icons/io";
 import { MdCastForEducation } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 
-
-
 const EducationDetails = () => {
-
   return (
     <section>
       <div className="mb-5">
@@ -33,12 +28,12 @@ const EducationDetails = () => {
           Higher Secondary School Certificate
         </h2>
         <p>
-          <FaSchool className="inline  text-basic mr-3 mr-3" />
+          <FaSchool className="inline  text-basic  mr-3" />
           institution: MEH Arif College
         </p>
         <p>
-          {" "}
-          <IoIosTime className="inline  text-basic mr-3 " />Duration: 2017-2019
+          <IoIosTime className="inline  text-basic mr-3 " />
+          Duration: 2017-2019
         </p>
         <p>
           <SlCalender className="inline  text-basic mr-3 " />
