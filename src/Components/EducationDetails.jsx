@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+ 
 import { FaSchool } from "react-icons/fa";
 
 import { IoIosTime } from "react-icons/io";
@@ -38,7 +38,7 @@ const EducationDetails = () => {
         </p>
         <p>
           {" "}
-          <IoIosTime className="inline  text-basic mr-3 " /> Duration: 2017-2019
+          <IoIosTime className="inline  text-basic mr-3 " />Duration: 2017-2019
         </p>
         <p>
           <SlCalender className="inline  text-basic mr-3 " />
