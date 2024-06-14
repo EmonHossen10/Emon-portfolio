@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import Footer from "../Components/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const About = () => {
       <AboutMe></AboutMe>
       {/* education section */}
       <Education></Education>
+      <Footer></Footer>
     </div>
   );
 };

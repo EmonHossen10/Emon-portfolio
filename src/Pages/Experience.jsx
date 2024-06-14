@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import { useEffect } from "react";
 import Aos from "aos";
 import { Helmet } from "react-helmet-async";
+import Footer from "../Components/Footer";
 // experience
 const experience = [
   {
@@ -74,6 +75,7 @@ const Experience = () => {
         </h2>
         <Skills></Skills>
       </section>
+      <Footer></Footer>
     </div>
   );
 };

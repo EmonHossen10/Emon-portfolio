@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Navbar from "./Navbar";
 import ProjectCard from "./ProjectCard";
+import Footer from "../Components/Footer";
 
 const Projects = () => {
   return (
@@ -17,6 +18,7 @@ const Projects = () => {
           <ProjectCard></ProjectCard>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };

@@ -20,12 +20,6 @@ const HeroSection = () => {
             <h2 className="text-2xl text-basic ">
               Hi, I'm <br /> <span>Mohammad Easin Arafat Emon</span>
             </h2>
-
-            {/* <p className="text-4xl font-bold">
-              {" "}
-              I'm a <span> Web Developer</span>
-            </p> */}
-
             <h2 className="lg:text-4xl text-xl text-white  font-semibold mb-2 animate__animated animate__zoomIn">
               <span>I'm a </span>
               <TypeAnimation

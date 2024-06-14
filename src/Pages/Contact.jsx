@@ -7,6 +7,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { Helmet } from "react-helmet-async";
+import Footer from "../Components/Footer";
 
 const Contact = () => {
   const defaultOptions = {
@@ -166,6 +167,7 @@ const Contact = () => {
           </div>
         </form>
       </section>
+      <Footer></Footer>
       <Toaster position="top-center" reverseOrder={false} />
     </>
   );
