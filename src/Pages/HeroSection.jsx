@@ -1,9 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FiDownload } from "react-icons/fi";
 import Socials from "../Components/Socials";
 import Photo from "../Components/Photo";
 import Stats from "../Components/Stats";
-
+ 
 const HeroSection = () => {
+  
   return (
     <section className="h-full">
       <div className=" w-11/12 lg:w-10/12  mx-auto h-full">
@@ -17,7 +19,8 @@ const HeroSection = () => {
             <h2 className="text-2xl text-basic ">
               Hi, I'm <br /> <span>Mohammad Easin Arafat Emon</span>
             </h2>
-            <p className="text-3xl font-bold">Web Developer</p>
+             
+            <p className="text-4xl font-bold" > I'm a <span> Web Developer</span></p>
 
             {/* another text part */}
 
