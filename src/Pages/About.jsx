@@ -5,6 +5,7 @@ import Education from "../Components/Education";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   useEffect(() => {
@@ -14,6 +15,9 @@ const About = () => {
   }, []);
   return (
     <div>
+       <Helmet>
+        <title>Portfolio | About </title>
+      </Helmet>
       <Navbar></Navbar>
       {/* about section */}
       <h2 className="text-basic   font-bold text-4xl text-center   my-6">

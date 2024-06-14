@@ -5,6 +5,7 @@ import MyServices from "./MyServices";
 import Skills from "./Skills";
 import { useEffect } from "react";
 import Aos from "aos";
+import { Helmet } from "react-helmet-async";
 // experience
 const experience = [
   {
@@ -35,6 +36,9 @@ const Experience = () => {
   }, []);
   return (
     <div>
+       <Helmet>
+        <title>Portfolio | Experience</title>
+      </Helmet>
       <Navbar></Navbar>
       {/* Experience  section */}
       <section className="flex flex-col lg:flex-row w-11/12 mx-auto gap-10 items-center justify-center py-5">

@@ -6,6 +6,7 @@ import img from "../assets/Pictures/email.png";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const defaultOptions = {
@@ -42,6 +43,9 @@ const Contact = () => {
   };
   return (
     <>
+      <Helmet>
+        <title>Portfolio | Contact</title>
+      </Helmet>
       <Navbar></Navbar>
       {/* contact me  */}
 
