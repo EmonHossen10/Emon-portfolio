@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import img from "../assets/Pictures/hero2.jpg";
+import img from "../assets/Pictures/hero10.jpg";
 
 const Photo = () => {
   return (
@@ -11,12 +11,12 @@ const Photo = () => {
           transition: { delay: 0.5, duration: 0.2, ease: "easeIn" },
         }}
       >
-        <div
+       <div
           className="  w-[275px] h-[298px] lg:w-[468px] lg:h-[498px]  
         absolute left-5 lg:left-8
         "
         >
-          <img className="rounded-full" src={img} alt="hero Img" />
+          <img className="w-[500px] h-[500px] rounded-full" src={img} alt="hero Img" />
         </div>
       </motion.div>
 

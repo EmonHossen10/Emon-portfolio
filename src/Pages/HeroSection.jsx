@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FiDownload } from "react-icons/fi";
 import Socials from "../Components/Socials";
-import Photo from "../Components/Photo";
+// import Photo from "../Components/Photo";
 import Stats from "../Components/Stats";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
+import AnotherPhoto from "../Components/AnotherPhoto";
 
 const HeroSection = () => {
   return (
@@ -16,7 +17,12 @@ const HeroSection = () => {
         "
         >
           {/* Text */}
-          <div className="text-center lg:text-left space-y-5">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="text-center lg:text-left space-y-5"
+          >
             <h2 className="text-2xl text-basic ">
               Hi, I'm <br />
               <span>Mohammad Easin Arafat Emon</span>
@@ -77,7 +83,8 @@ const HeroSection = () => {
           </div>
           {/* photo */}
           <div className="mb-8 lg:mb-0">
-            <Photo></Photo>
+            {/* <Photo></Photo> */}
+            <AnotherPhoto></AnotherPhoto>
           </div>
         </div>
       </div>
